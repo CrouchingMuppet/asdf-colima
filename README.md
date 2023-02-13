@@ -16,10 +16,7 @@
 
 # Dependencies
 
-**TODO: adapt this section**
-
 - `bash`, `curl`, `tar`: generic POSIX utilities.
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
 
 # Install
 
@@ -31,7 +28,7 @@ asdf plugin add colima
 asdf plugin add colima https://github.com/CrouchingMuppet/asdf-colima.git
 ```
 
-colima:
+Colima:
 
 ```shell
 # Show all installable versions
@@ -44,7 +41,7 @@ asdf install colima latest
 asdf global colima latest
 
 # Now colima commands are available
-colima version
+colima start
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
