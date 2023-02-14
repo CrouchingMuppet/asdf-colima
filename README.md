@@ -3,7 +3,7 @@
 # asdf-colima [![Build](https://github.com/CrouchingMuppet/asdf-colima/actions/workflows/build.yml/badge.svg)](https://github.com/CrouchingMuppet/asdf-colima/actions/workflows/build.yml) [![Lint](https://github.com/CrouchingMuppet/asdf-colima/actions/workflows/lint.yml/badge.svg)](https://github.com/CrouchingMuppet/asdf-colima/actions/workflows/lint.yml)
 
 
-[colima](https://github.com/abiosoft/colima) plugin for the [asdf version manager](https://asdf-vm.com).
+[Colima](https://github.com/abiosoft/colima) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
@@ -16,7 +16,8 @@
 
 # Dependencies
 
-- `bash`, `curl`, `tar`: generic POSIX utilities.
+- `bash`, `curl`: generic POSIX utilities.
+- `lima`: [Linux virtual machines](https://github.com/lima-vm/lima) on macOS.
 
 # Install
 
