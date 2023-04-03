@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+deps=()
+
+if ! which curl &> /dev/null; then deps+=' curl'; fi
+
+if [[ $OSTYPE == "darwin"* ]]; then
+    if ! which lima &> /dev/null; then deps+=' lima'; fi
+fi
+
+if [[ ${#deps[@]} != 0 ]]; then
+    printf "\033[0;31mThe following dependencies are missing:\033[0m\n"
+    for dep in $deps; do printf "$dep\n"; done
+    printf "\n"
+fi
