@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if ! which curl &> /dev/null; then echo curl; fi
+
+if [[ $OSTYPE == "darwin"* ]]; then
+    if ! which lima &> /dev/null; then echo lima; fi
+fi
