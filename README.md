@@ -17,9 +17,7 @@
 
 - `bash`, `curl`: generic POSIX utilities.
 - `lima`: [Linux virtual machines](https://github.com/lima-vm/lima) on macOS.
-- `docker-cli`:
-  - [docker.com](https://www.docker.com) `brew install docker`
-  - or [orbstack.dev](https://orbstack.dev) `brew install orbstack` on macOS
+- `docker-cli`: [docker.com](https://www.docker.com) `brew install docker` on macOS (don't use the cask).
 
 # Install
 
